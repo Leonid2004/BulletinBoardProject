@@ -1,0 +1,69 @@
+.wholeWindow {
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+    grid-template-rows: 5vh 2500px 10vh;
+}
+
+.theBackg {
+    display: grid;
+    background-image: url("../img/background2Main.jpg");
+
+  background-position: center center;
+
+  /* Фоновое изображение не повторяется */
+  background-repeat: no-repeat;
+
+  /* Фоновое изображение зафиксировано в окне просмотра, поэтому оно не смещается, когда высота контента больше высоты изображения */
+  background-attachment: fixed;
+
+  /* Вот что позволяет фоновому изображению подстраиваться под размер контейнера */
+  background-size: cover;
+
+  /* Устанавливает фоновый цвет, который будет отображаться, пока загружается фоновое изображение */
+  background-color: #464646;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-template-columns: 10% 30% 40% 10% 10%;
+
+    grid-template-rows: 5% 2300px 5%;
+
+
+}
+h1 {
+    color: black;
+    grid-column-start: 3;
+    margin-left: 20%;
+}
+
+h2 {
+    color: white;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-top: 15%;
+
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+.theMenu {
+    display: flex;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    width: 400px;
+    height: 40px;
+    background-color: wheat;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.PostsUrlFromMain {
+font-size: x-large;
+    color: saddlebrown;
+}
+
+.AccUrlFromMain {
+font-size: x-large;
+     color: saddlebrown;
+}

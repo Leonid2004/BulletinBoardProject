@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if user.is_authenticated %}
+    Привет!
+{% else %}
+    Сыллка для захода в аккаунт:
+        <a href="../accounts/login">Вход</a>
+    <br>
+    Ссылка для регистрации:
+     <a href="../uregistration"> Зарегистрироваться </a>
+{% endif %}
+
+</body>
+</html>

@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d17f9362-d3ef-427f-8354-b9804f21e5a4" name="Default Changelist" comment="" />
+    <list default="true" id="d17f9362-d3ef-427f-8354-b9804f21e5a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/css/mainStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/theAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/toRegistrate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1ufzSEotp1Mur0GbUqyy6NutYVy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -17,9 +44,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="djangoProject" type="Python.DjangoServer" factoryName="Django server">
@@ -55,6 +88,24 @@
       <option name="presentableId" value="Default" />
       <updated>1625071428832</updated>
       <workItem from="1625071456245" duration="121000" />
+      <workItem from="1625097213193" duration="597000" />
+      <workItem from="1625142309558" duration="187000" />
+      <workItem from="1625160008069" duration="723000" />
+      <workItem from="1625165623854" duration="2459000" />
+      <workItem from="1625221465940" duration="166000" />
+      <workItem from="1625240472219" duration="4304000" />
+      <workItem from="1625320018255" duration="3841000" />
+      <workItem from="1625348462225" duration="1403000" />
+      <workItem from="1625399339888" duration="700000" />
+      <workItem from="1625415496415" duration="67000" />
+      <workItem from="1625415600012" duration="355000" />
+      <workItem from="1625510060423" duration="1190000" />
+      <workItem from="1625601213644" duration="1900000" />
+      <workItem from="1625650566347" duration="1447000" />
+      <workItem from="1625771407211" duration="978000" />
+      <workItem from="1625829273052" duration="2438000" />
+      <workItem from="1625865551594" duration="1123000" />
+      <workItem from="1625910333752" duration="448000" />
     </task>
     <servers />
   </component>
