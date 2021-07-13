@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d17f9362-d3ef-427f-8354-b9804f21e5a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BB/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BB/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BB/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BB/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +103,9 @@
       <workItem from="1625865551594" duration="1123000" />
       <workItem from="1625910333752" duration="448000" />
       <workItem from="1625910799401" duration="497000" />
-      <workItem from="1625944809722" duration="733000" />
+      <workItem from="1625944809722" duration="1406000" />
+      <workItem from="1626033143861" duration="2207000" />
+      <workItem from="1626212094839" duration="592000" />
     </task>
     <servers />
   </component>
