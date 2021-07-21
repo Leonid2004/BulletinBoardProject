@@ -49,11 +49,11 @@ class addPostPage(CreateView):
     template_name = "addPost.html"
     success_url = reverse_lazy('posts')
 
-    # def form_valid(self, form):
-    #     Post = form.save()
-    #     Post.save()
-    #     form.save()
-    #     return redirect("/posts/")
+    def form_valid(self, form):
+        Post = form.save()
+        Post.save()
+        form.save()
+        return redirect("/posts/")
 
 
 

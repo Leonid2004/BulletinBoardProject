@@ -1,17 +1,22 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+     <link rel="stylesheet" href="{% static 'css/postsstyles.css'%}" type="text/css">
 </head>
 <body>
+<a class="buttonAddPost" href="../addPost/">Добавить пост</a>
 <h2>Посты:</h2>
 <br>
 {% for i in thePost %}
-    {{ i.title }}
+    <h3>  {{ i.title }}</h3>
     <br>
-   {{ i.filesForWeb }}
-    <img src="../media/{{ i.filesForWeb }}">
+{#   {{ i.filesForWeb }}#}
+    <h4>{{ i.text }}</h4>
+    <br>
+    <img src="../media/{{ i.filesForWeb }}" width="1000px" height="1000px">
     <br>
 {% endfor %}
 

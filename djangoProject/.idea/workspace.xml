@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d17f9362-d3ef-427f-8354-b9804f21e5a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/css/postsstyles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BB/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BB/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BB/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BB/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/addPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/addPost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -113,7 +116,9 @@
       <workItem from="1626865406900" duration="3745000" />
       <workItem from="1626870651423" duration="30000" />
       <workItem from="1626870763262" duration="1469000" />
-      <workItem from="1626876697589" duration="638000" />
+      <workItem from="1626876697589" duration="3145000" />
+      <workItem from="1626889328361" duration="917000" />
+      <workItem from="1626890274280" duration="344000" />
     </task>
     <servers />
   </component>
