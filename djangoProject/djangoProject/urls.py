@@ -28,7 +28,7 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls')),
     path('theAccount/', theAccountList.as_view()),
     path('uregistration/', RegistrationPage.as_view()),
-    path('addPost/',addPostPage.as_view()),
+    path('addPost/',addPostPage.as_view(), name='add_post'),
 
 
 ]

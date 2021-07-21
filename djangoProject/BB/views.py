@@ -3,6 +3,8 @@ from django.views.generic import ListView,CreateView
 from django.views.generic import DetailView
 from .models import Post,Messages
 from django.contrib.auth.models import User
+from .forms import PostForm
+from django.urls import reverse_lazy
 # Create your views here.
 
 class Main(ListView):
@@ -43,11 +45,15 @@ class RegistrationPage(ListView):
 
 class addPostPage(CreateView):
     model = Post
-    fields = ['title', 'text','Category','filesForWeb']
+    form_class = PostForm
     template_name = "addPost.html"
+    success_url = reverse_lazy('posts')
 
-    def form_valid(self, form):
-        return redirect("/posts/")
+    # def form_valid(self, form):
+    #     Post = form.save()
+    #     Post.save()
+    #     form.save()
+    #     return redirect("/posts/")
 
 
 
