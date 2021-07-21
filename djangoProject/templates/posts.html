@@ -5,13 +5,20 @@
     <title>Title</title>
 </head>
 <body>
+<h2>Посты:</h2>
+<br>
 {% for i in thePost %}
     {{ i.title }}
     <br>
    {{ i.filesForWeb }}
+    <img src="../media/{{ i.filesForWeb }}">
     <br>
-        <img src="../media/images/test2.jpg">
-    <img src="../static/img/background1Main.jpg">
 {% endfor %}
+
+
+{# <img src="../media/images/Fuze_Concept_2.jpg">#}
+    <img src="../static/img/background1Main.jpg">
+
+
 </body>
 </html>
