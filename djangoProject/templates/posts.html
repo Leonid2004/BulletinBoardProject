@@ -9,15 +9,22 @@
 <body>
 <a class="buttonAddPost" href="../addPost/">Добавить пост</a>
 <h2>Посты:</h2>
-<br>
 {% for i in thePost %}
-    <h3>  {{ i.title }}</h3>
+     <a class="linkFromBorder" href="#">
+    <div class="NewsContainer">
+    <h2>  {{ i.title }}</h2>
     <br>
 {#   {{ i.filesForWeb }}#}
-    <h4>{{ i.text }}</h4>
+    <h3>{{ i.text }}</h3>
     <br>
     <img src="../media/{{ i.filesForWeb }}" width="1000px" height="1000px">
     <br>
+        <h5>Категория: {{ i.Category }}</h5>
+{#    {{ i.filesForWeb.width }}#}
+{#    {{ i.filesForWeb.height }}#}
+
+    </div>
+ </a>
 {% endfor %}
 
 

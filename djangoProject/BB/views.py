@@ -56,6 +56,10 @@ class addPostPage(CreateView):
         return redirect("/posts/")
 
 
+class singlePost(DetailView):
+    model = Post
+    template_name = "post.html"
+    context_object_name = "thePost"
 
 
 

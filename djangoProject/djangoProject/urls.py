@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.template.defaulttags import url
 from django.urls import path,include
-from BB.views import Main, PostsList, theAccountList, RegistrationPage,addPostPage
+from BB.views import Main, PostsList, theAccountList, RegistrationPage,addPostPage,singlePost
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -29,7 +29,7 @@ urlpatterns = [
     path('theAccount/', theAccountList.as_view()),
     path('uregistration/', RegistrationPage.as_view()),
     path('addPost/',addPostPage.as_view(), name='add_post'),
-
+    path("posts/<int:pk>/",singlePost.as_view())
 
 ]
 if settings.DEBUG: # new
