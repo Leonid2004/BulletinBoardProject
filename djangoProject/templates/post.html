@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +6,13 @@
     <title>Title</title>
 </head>
 <body>
-Пост
+<h1>{{ APost.title }}</h1>
+<br><br>
+
+<h3>{{ APost.text }}</h3>
+<br>
+ <img src="../../media/{{ APost.filesForWeb }}" width="1000px" height="1000px">
+<br>
+<h5>{{ APost.Category }}</h5>
 </body>
 </html>

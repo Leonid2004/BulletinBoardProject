@@ -59,7 +59,7 @@ class addPostPage(CreateView):
 class singlePost(DetailView):
     model = Post
     template_name = "post.html"
-    context_object_name = "thePost"
+    context_object_name = "APost"
 
 
 

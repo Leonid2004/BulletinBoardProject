@@ -10,7 +10,7 @@
 <a class="buttonAddPost" href="../addPost/">Добавить пост</a>
 <h2>Посты:</h2>
 {% for i in thePost %}
-     <a class="linkFromBorder" href="#">
+     <a class="linkFromBorder" href="{{ i.id }}">
     <div class="NewsContainer">
     <h2>  {{ i.title }}</h2>
     <br>

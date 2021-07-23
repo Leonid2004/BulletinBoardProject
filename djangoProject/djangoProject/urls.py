@@ -31,6 +31,8 @@ urlpatterns = [
     path('addPost/',addPostPage.as_view(), name='add_post'),
     path("posts/<int:pk>/",singlePost.as_view())
 
+
 ]
 if settings.DEBUG: # new
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
