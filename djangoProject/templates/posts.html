@@ -3,11 +3,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Posts</title>
      <link rel="stylesheet" href="{% static 'css/postsstyles.css'%}" type="text/css">
 </head>
 <body>
 <a class="buttonAddPost" href="../addPost/">Добавить пост</a>
+<a class="buttonAddPost" href="/">На главную</a>
 <h2>Посты:</h2>
 {% for i in thePost %}
      <a class="linkFromBorder" href="{{ i.id }}">

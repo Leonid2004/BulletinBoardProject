@@ -61,6 +61,11 @@ class singlePost(DetailView):
     template_name = "post.html"
     context_object_name = "APost"
 
+class MessagesPage(ListView):
+     model = Messages
+     template_name = "chats.html"
+     context_object_name = "msg"
+
 
 
 
