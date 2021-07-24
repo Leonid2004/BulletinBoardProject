@@ -6,6 +6,7 @@
     <title>{{ APost.title }}</title>
 </head>
 <body>
+{% if user.is_authenticated %}
 <h3><a href="/posts/">Ко всем постам</a></h3>
 <h1>{{ APost.title }}</h1>
 <br><br>
@@ -15,5 +16,33 @@
  <img src="../../media/{{ APost.filesForWeb }}" width="1000px" height="1000px">
 <br>
 <h5>{{ APost.Category }}</h5>
+
+    <br><br>
+    Написать сообщение автору:
+    <form method="post">
+    {% csrf_token %}
+    <br>
+        Кому -
+    <input type="text" name="sendTo" value="{{ APost.owner.id }}">
+        <br>
+          <br>
+        От -
+    <input type="text" name="sendFrom" value="{{ user.id }}">
+        <br>
+        <br>
+        Текст -
+    <input type="text" name="theText">
+        <br>
+        <p><input type="submit" value="отправить"></p>
+    </form>
+
+
+    {% else %}
+    Вы должны войти в аккаунт или зарегистрироваться!
+{% endif %}
+
+
+
+
 </body>
 </html>

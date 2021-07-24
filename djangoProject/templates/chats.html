@@ -5,6 +5,19 @@
     <title>Messages</title>
 </head>
 <body>
-Сообщения:
+{% if user.is_authenticated %}
+Сообщения/Отклики для вас:
+{% for i in msg %}
+    <br>
+    <br>
+    {{ i.msgFrom }}
+    <br>
+    {{ i.text }}
+    <br>
+    <br><br><br><br>
+{% endfor %}
+    {% else %}
+      Вы должны войти в аккаунт или зарегистрироваться!
+{% endif %}
 </body>
 </html>

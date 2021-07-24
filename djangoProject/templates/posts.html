@@ -9,10 +9,15 @@
 <body>
 <a class="buttonAddPost" href="../addPost/">Добавить пост</a>
 <a class="buttonAddPost" href="/">На главную</a>
+<a class="buttonAddPost" href="/chats/">Сообщения</a>
 <h2>Посты:</h2>
+
 {% for i in thePost %}
      <a class="linkFromBorder" href="{{ i.id }}">
     <div class="NewsContainer">
+          <br>
+        <h3>Автор -  {{ i.owner }}</h3>
+    <br>
     <h2>  {{ i.title }}</h2>
     <br>
 {#   {{ i.filesForWeb }}#}

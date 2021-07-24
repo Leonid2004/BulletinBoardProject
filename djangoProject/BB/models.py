@@ -14,6 +14,7 @@ POSITIONS = [
     ("Мастера заклинаний", 'Мастера заклинаний'),
 ]
 class Post(models.Model):
+    owner = models.OneToOneField('auth.User',on_delete=models.CASCADE,blank=True, null=True)
     title = models.CharField(max_length = 75)
     text = models.CharField(max_length=3500)
     whoLiked = models.ForeignKey(User,on_delete=models.CASCADE,blank=True,null=True,related_name="whoLiked")

@@ -55,16 +55,36 @@ class addPostPage(CreateView):
         form.save()
         return redirect("/posts/")
 
+# class addPostPage(ListView):
+#     model = Post
+#     template_name = "addPost.html"
+#     template_name = "addPost.html"
+#
+#     def post(self,request,*args,**kwargs):
+#         pass
 
 class singlePost(DetailView):
     model = Post
     template_name = "post.html"
     context_object_name = "APost"
 
+    def post(self, request, *args, **kwargs):
+        theText_ = request.POST['theText']
+        userTo = request.POST['sendTo']
+        userFrom = request.POST['sendFrom']
+
+        Messages.objects.create(text=theText_,msgTo = User.objects.get(id = userTo), msgFrom=User.objects.get(id = userFrom))
+       # Messages.save()
+        return redirect("/posts/")
+
+
 class MessagesPage(ListView):
      model = Messages
      template_name = "chats.html"
      context_object_name = "msg"
+
+
+
 
 
 

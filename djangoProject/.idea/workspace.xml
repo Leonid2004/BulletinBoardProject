@@ -3,11 +3,33 @@
   <component name="ChangeListManager">
     <list default="true" id="d17f9362-d3ef-427f-8354-b9804f21e5a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BB/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/BB/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BB/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BB/migrations/0002_auto_20210710_1201.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BB/migrations/0003_post_filesforweb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BB/migrations/0004_alter_post_wholiked.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BB/migrations/0005_post_category.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BB/migrations/0006_alter_post_filesforweb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BB/migrations/0007_alter_post_wholiked.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BB/migrations/0008_auto_20210717_1234.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BB/migrations/0009_alter_post_filesforweb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BB/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BB/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BB/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BB/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/21667-tehnologii-microsoft_windows-energiya-tehnologia-sinij-3840x2160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/480232.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/480232_in1dRH8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/DZPULiJXcAAzNs4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/Fuze_Concept_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/Fuze_Concept_2_gUVfiQe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/desktopwallpapers.org.ua-8119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/test2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/addPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/addPost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/chats.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/chats.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/theAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/toRegistrate.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/toRegistrate.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +146,8 @@
       <workItem from="1627034095087" duration="2551000" />
       <workItem from="1627057809825" duration="2499000" />
       <workItem from="1627060546049" duration="557000" />
+      <workItem from="1627139009588" duration="1774000" />
+      <workItem from="1627153478550" duration="6295000" />
     </task>
     <servers />
   </component>

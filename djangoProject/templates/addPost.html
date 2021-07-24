@@ -5,9 +5,20 @@
     <title>Title</title>
 </head>
 <body>
+{% if user.is_authenticated %}
 <form method="post" enctype="multipart/form-data">{% csrf_token %}
+{#    Автор -  <input name="theOwner" type="text" value="{{ user.username }}">#}
     {{ form.as_p }}
     <input type="submit" value="Save">
 </form>
+{#    <form method="post" enctype="multipart/form-data">{% csrf_token %}#}
+{#    Автор -  <input name="theOwner" type="text" value="{{ user.username }}">#}
+{#    Заголовок - <input name="title" type="text">#}
+{#    Категория -     #}
+{#    <input type="submit" value="Save">#}
+{#</form>#}
+    {% else %}
+    Вы должны войти в аккаунт или зарегистрироваться!
+{% endif %}
 </body>
 </html>
