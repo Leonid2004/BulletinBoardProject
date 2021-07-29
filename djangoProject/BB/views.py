@@ -55,6 +55,8 @@ class addPostPage(CreateView):
         form.save()
         return redirect("/posts/")
 
+
+
 # class addPostPage(ListView):
 #     model = Post
 #     template_name = "addPost.html"
