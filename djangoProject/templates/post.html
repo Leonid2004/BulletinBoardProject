@@ -22,14 +22,14 @@
     <form method="post">
     {% csrf_token %}
     <br>
-        Кому -
-    <input type="text" name="sendTo" value="{{ APost.owner.id }}">
-        <br>
-          <br>
-        От -
-    <input type="text" name="sendFrom" value="{{ user.id }}">
-        <br>
-        <br>
+{#        Кому -#}
+    <input type="text" name="sendTo" value="{{ APost.owner.id }}" style="display: none">
+{#        <br>#}
+{#          <br>#}
+{#        От -#}
+    <input type="text" name="sendFrom" value="{{ user.id }}" style="display: none">
+{#        <br>#}
+{#        <br>#}
         Текст -
     <input type="text" name="theText">
         <br>
