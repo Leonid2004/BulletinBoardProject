@@ -6,7 +6,8 @@
 </head>
 <body>
 {% if user.is_authenticated %}
-    Привет!
+    Привет {{ user.username }}!
+
 {% else %}
     Сыллка для захода в аккаунт:
         <a href="../accounts/login">Вход</a>

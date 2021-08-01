@@ -50,10 +50,13 @@ class addPostPage(CreateView):
     success_url = reverse_lazy('posts')
 
     def form_valid(self, form):
+        form.instance.owner = self.request.user
         Post = form.save()
         Post.save()
         form.save()
         return redirect("/posts/")
+        # return super().form_valid(form)
+
 
 
 
